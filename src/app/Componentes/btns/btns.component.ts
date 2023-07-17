@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BtnsComponent implements OnInit {
 
+  iconMenu : boolean = false;
+  statusMenuCel : boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  comision(): void {}
+
+  menuCel(): void {}
 
 }

@@ -1,1 +1,39 @@
-<p>btns works!</p>
+<div class="container-fluid">
+
+    <!--   Botones para pc   -->
+    <div class="max20px pc animationFX">
+        <nav class="text-center">
+            <ul class="navbar navbar-bar mx-auto d-flex">
+                <li></li>
+                <li><a href="javascript:void(0)" class="fontButtons" (click)="comision()">Comision</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Eventos</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Resultados</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Contacto</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Pre-Inscripción</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--   Botones para cel   -->
+    <!--   Icono tipo Hamburguesa para menu desplegable-->
+    <div class="cel animationMenu" *ngIf="iconMenu">
+        <a href="javascript:void(0)" (click)="menuCel()">
+            <img class="iMenu" src="./assets/img/iconMenu.png" alt="Icon Menu" >
+        </a>
+    </div>
+    <!--   Aca empieza el menu desplegable para celulares  -->
+    <div class="cel semiFondo animationMenu" *ngIf="statusMenuCel">
+        <a href="javascript:void(0)" class="btn-close-white closeBtn" (click)="menuCel()"><b>&times;</b></a>
+        <nav class="text-center">
+            <ul class="navbar navbar-bar d-block">
+                <li></li>
+                <li><a href="javascript:void(0)" class="fontButtons" (click)="comision()">Comision</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Eventos</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Resultados</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Contacto</a></li>
+                <li><a href="javascript:void(0)" class="fontButtons">Pre-Inscripción</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+</div>

@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+/***   Generales   ***/
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.margin30 {
+    margin: 30px;
+}
+
+.mtbanner {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+}
+
+.textWhite {
+    color: white;
+}
+
+.textBlack {
+    color: black;
+}
+
+.alturaMinima {
+    min-height: 400px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/***   Fin Generales   ***/
+
+
+
+
+/********** FOOTER **********/
+#footer {
+    margin-top: auto;
+    background-color: black;
+}
+
+.footerpadding {
+    padding-top: 10px;
+}
+
+.dlr {
+    max-height: 20px;
+    margin-left: 10px;
+}
+
+/********** Fin FOOTER **********/
+
